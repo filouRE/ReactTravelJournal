@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #2b283a;
+}
+
+img {
+  object-fit: cover;
+}
+
+hr {
+  width: calc(100vw - 4rem);
+  margin: auto;
+}
+
+nav {
+  font-size: 18px;
+  font-weight: 500;
+  background: #f55a5a;
+  color: white;
+  display: flex;
+  gap: 10px;
+  align-self: center;
+  justify-content: center;
+  padding: 1.75rem;
+}
+
+.card {
+  display: flex;
+  align-self: center;
+  justify-content: left;
+  gap: 30px;
+  min-width: 100vw;
+  padding: 2rem;
+}
+.card__image img {
+  border-radius: 5px;
+}
+.card__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card__header_infos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card__header_infos a {
+  color: #918e9b;
+  line-height: 12px;
+  text-decoration-line: underline;
+}
+
+.card__header_infos__location {
+  display: flex;
+  letter-spacing: 0.17em;
+  font-weight: 400;
+  line-height: 12px;
+  gap: 6px;
+}
+
+.card__date {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 12px;
+}
+
+.card__description {
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 150%;
+}
